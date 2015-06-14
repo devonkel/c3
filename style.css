@@ -1,0 +1,67 @@
+body {
+	background: linen;
+	width: 500px;
+	margin: 200px auto;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+p {
+	color: green;
+	border: 2px dashed blue;
+	padding: 10px
+}
+p.second {
+	color: red;
+	border: 2px dashed blue;
+	padding: 10px
+}
+
+div {
+	border: 5px solid maroon;
+	text-align: center;
+	padding: 5px;
+}
+
+div.content {
+	border: 5px solid cornflowerblue;
+	text-align: center;
+	padding: 5px;
+}
+
+a {
+	color: cornflowerblue;
+	text-decoration: none; /* remove the deffault underline */
+}
+
+a:visited {
+	color: tomato;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ol {
+	border: 5px solid darksalmon;
+	border-radius: 10px;
+}
+
+li {
+	color: brown;
+}
+
+li:first-child {
+	background: yellow;
+}
+
+li:nth-child(2) {
+	background: orange;
+}
+
+li:nth-child(3) {
+	background: linen;
+}
